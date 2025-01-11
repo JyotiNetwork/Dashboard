@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Papa from 'papaparse';
 import Chart from './Chart';
 import Table from './Table';
 import { parseCSVData, getElectricVehicleTypes } from '../utils/dataProcessing';
